@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A29872724DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A29872524DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.h */; };
+		0A29872824DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A29872624DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.m */; };
+		0A29877024DE83EB00CDD0CA /* UIView+HSBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A29876E24DE83EB00CDD0CA /* UIView+HSBAnalytics.h */; };
+		0A29877124DE83EB00CDD0CA /* UIView+HSBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A29876F24DE83EB00CDD0CA /* UIView+HSBAnalytics.m */; };
+		0A29877424DE89B400CDD0CA /* UIButton+HSBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A29877224DE89B400CDD0CA /* UIButton+HSBAnalytics.h */; };
+		0A29877524DE89B400CDD0CA /* UIButton+HSBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A29877324DE89B400CDD0CA /* UIButton+HSBAnalytics.m */; };
+		0A29877824DE8AD700CDD0CA /* UISwitch+HSBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A29877624DE8AD700CDD0CA /* UISwitch+HSBAnalytics.h */; };
+		0A29877924DE8AD700CDD0CA /* UISwitch+HSBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A29877724DE8AD700CDD0CA /* UISwitch+HSBAnalytics.m */; };
+		0A29877C24DE8C4700CDD0CA /* UISlider+HSBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A29877A24DE8C4700CDD0CA /* UISlider+HSBAnalytics.h */; };
+		0A29877D24DE8C4700CDD0CA /* UISlider+HSBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A29877B24DE8C4700CDD0CA /* UISlider+HSBAnalytics.m */; };
+		0A29878024DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A29877E24DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.h */; };
+		0A29878124DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A29877F24DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.m */; };
+		0A29878424DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A29878224DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.h */; };
+		0A29878524DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A29878324DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.m */; };
+		0A2987D124E0F27500CDD0CA /* UITableView+HSBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2987CF24E0F27500CDD0CA /* UITableView+HSBAnalytics.h */; };
+		0A2987D224E0F27500CDD0CA /* UITableView+HSBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2987D024E0F27500CDD0CA /* UITableView+HSBAnalytics.m */; };
+		0A31110B24ED0F5100FB16AC /* HSBAnalyticsExceptionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A31110924ED0F5100FB16AC /* HSBAnalyticsExceptionManager.h */; };
+		0A31110C24ED0F5100FB16AC /* HSBAnalyticsExceptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A31110A24ED0F5100FB16AC /* HSBAnalyticsExceptionManager.m */; };
+		0A53A6BC24F3B3ED005E1953 /* HSBAnalyticsHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A53A6BA24F3B3ED005E1953 /* HSBAnalyticsHttpManager.h */; };
+		0A53A6BD24F3B3ED005E1953 /* HSBAnalyticsHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A53A6BB24F3B3ED005E1953 /* HSBAnalyticsHttpManager.m */; };
+		0A53A6C024F3B479005E1953 /* HSBAnalyticsDatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A53A6BE24F3B479005E1953 /* HSBAnalyticsDatabaseManager.h */; };
+		0A53A6C124F3B479005E1953 /* HSBAnalyticsDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A53A6BF24F3B479005E1953 /* HSBAnalyticsDatabaseManager.m */; };
+		0A5461C424E1360E00503A08 /* UICollectionView+HSBSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5461C224E1360E00503A08 /* UICollectionView+HSBSwizzler.h */; };
+		0A5461C524E1360E00503A08 /* UICollectionView+HSBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5461C324E1360E00503A08 /* UICollectionView+HSBSwizzler.m */; };
+		0A5461C824E136B300503A08 /* HSBAnalyticsDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5461C624E136B300503A08 /* HSBAnalyticsDelegateProxy.h */; };
+		0A5461C924E136B300503A08 /* HSBAnalyticsDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5461C724E136B300503A08 /* HSBAnalyticsDelegateProxy.m */; };
+		0A5461CC24E1381900503A08 /* UIScrollView+HSBSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5461CA24E1381900503A08 /* UIScrollView+HSBSwizzler.h */; };
+		0A5461CD24E1381900503A08 /* UIScrollView+HSBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5461CB24E1381900503A08 /* UIScrollView+HSBSwizzler.m */; };
+		0A5461E824E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5461E624E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.h */; };
+		0A5461E924E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5461E724E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.m */; };
+		0A5ECFD624D93C7A00CACC53 /* HSBAnalyticsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5ECFD424D93C7A00CACC53 /* HSBAnalyticsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5ED00824D9419D00CACC53 /* HSBAnalyticsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5ED00624D9419D00CACC53 /* HSBAnalyticsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5ED00924D9419D00CACC53 /* HSBAnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5ED00724D9419D00CACC53 /* HSBAnalyticsManager.m */; };
+		0A5ED02224DD3D6C00CACC53 /* NSObject+HSBSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5ED02024DD3D6C00CACC53 /* NSObject+HSBSwizzler.h */; };
+		0A5ED02324DD3D6C00CACC53 /* NSObject+HSBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5ED02124DD3D6C00CACC53 /* NSObject+HSBSwizzler.m */; };
+		0A5ED02624DD3EA700CACC53 /* UIViewController+HSBSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5ED02424DD3EA700CACC53 /* UIViewController+HSBSwizzler.h */; };
+		0A5ED02724DD3EA700CACC53 /* UIViewController+HSBSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5ED02524DD3EA700CACC53 /* UIViewController+HSBSwizzler.m */; };
+		A2A349DEABCA68515FF7FD05 /* Pods_HSBAnalyticsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559F8E70F3C296BAF34F218B /* Pods_HSBAnalyticsSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A29872524DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+HSBSwizzler.h"; sourceTree = "<group>"; };
+		0A29872624DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+HSBSwizzler.m"; sourceTree = "<group>"; };
+		0A29876E24DE83EB00CDD0CA /* UIView+HSBAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HSBAnalytics.h"; sourceTree = "<group>"; };
+		0A29876F24DE83EB00CDD0CA /* UIView+HSBAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HSBAnalytics.m"; sourceTree = "<group>"; };
+		0A29877224DE89B400CDD0CA /* UIButton+HSBAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+HSBAnalytics.h"; sourceTree = "<group>"; };
+		0A29877324DE89B400CDD0CA /* UIButton+HSBAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HSBAnalytics.m"; sourceTree = "<group>"; };
+		0A29877624DE8AD700CDD0CA /* UISwitch+HSBAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISwitch+HSBAnalytics.h"; sourceTree = "<group>"; };
+		0A29877724DE8AD700CDD0CA /* UISwitch+HSBAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+HSBAnalytics.m"; sourceTree = "<group>"; };
+		0A29877A24DE8C4700CDD0CA /* UISlider+HSBAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISlider+HSBAnalytics.h"; sourceTree = "<group>"; };
+		0A29877B24DE8C4700CDD0CA /* UISlider+HSBAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISlider+HSBAnalytics.m"; sourceTree = "<group>"; };
+		0A29877E24DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+HSBAnalytics.h"; sourceTree = "<group>"; };
+		0A29877F24DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+HSBAnalytics.m"; sourceTree = "<group>"; };
+		0A29878224DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStepper+HSBAnalytics.h"; sourceTree = "<group>"; };
+		0A29878324DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+HSBAnalytics.m"; sourceTree = "<group>"; };
+		0A2987CF24E0F27500CDD0CA /* UITableView+HSBAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+HSBAnalytics.h"; sourceTree = "<group>"; };
+		0A2987D024E0F27500CDD0CA /* UITableView+HSBAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HSBAnalytics.m"; sourceTree = "<group>"; };
+		0A31110924ED0F5100FB16AC /* HSBAnalyticsExceptionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBAnalyticsExceptionManager.h; sourceTree = "<group>"; };
+		0A31110A24ED0F5100FB16AC /* HSBAnalyticsExceptionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSBAnalyticsExceptionManager.m; sourceTree = "<group>"; };
+		0A53A6BA24F3B3ED005E1953 /* HSBAnalyticsHttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBAnalyticsHttpManager.h; sourceTree = "<group>"; };
+		0A53A6BB24F3B3ED005E1953 /* HSBAnalyticsHttpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSBAnalyticsHttpManager.m; sourceTree = "<group>"; };
+		0A53A6BE24F3B479005E1953 /* HSBAnalyticsDatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBAnalyticsDatabaseManager.h; sourceTree = "<group>"; };
+		0A53A6BF24F3B479005E1953 /* HSBAnalyticsDatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSBAnalyticsDatabaseManager.m; sourceTree = "<group>"; };
+		0A5461C224E1360E00503A08 /* UICollectionView+HSBSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HSBSwizzler.h"; sourceTree = "<group>"; };
+		0A5461C324E1360E00503A08 /* UICollectionView+HSBSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HSBSwizzler.m"; sourceTree = "<group>"; };
+		0A5461C624E136B300503A08 /* HSBAnalyticsDelegateProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBAnalyticsDelegateProxy.h; sourceTree = "<group>"; };
+		0A5461C724E136B300503A08 /* HSBAnalyticsDelegateProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSBAnalyticsDelegateProxy.m; sourceTree = "<group>"; };
+		0A5461CA24E1381900503A08 /* UIScrollView+HSBSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HSBSwizzler.h"; sourceTree = "<group>"; };
+		0A5461CB24E1381900503A08 /* UIScrollView+HSBSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HSBSwizzler.m"; sourceTree = "<group>"; };
+		0A5461E624E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+HSBSwizzler.h"; sourceTree = "<group>"; };
+		0A5461E724E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+HSBSwizzler.m"; sourceTree = "<group>"; };
+		0A5ECFD124D93C7A00CACC53 /* HSBAnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSBAnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5ECFD424D93C7A00CACC53 /* HSBAnalyticsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBAnalyticsSDK.h; sourceTree = "<group>"; };
+		0A5ED00624D9419D00CACC53 /* HSBAnalyticsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBAnalyticsManager.h; sourceTree = "<group>"; };
+		0A5ED00724D9419D00CACC53 /* HSBAnalyticsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSBAnalyticsManager.m; sourceTree = "<group>"; };
+		0A5ED02024DD3D6C00CACC53 /* NSObject+HSBSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HSBSwizzler.h"; sourceTree = "<group>"; };
+		0A5ED02124DD3D6C00CACC53 /* NSObject+HSBSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HSBSwizzler.m"; sourceTree = "<group>"; };
+		0A5ED02424DD3EA700CACC53 /* UIViewController+HSBSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HSBSwizzler.h"; sourceTree = "<group>"; };
+		0A5ED02524DD3EA700CACC53 /* UIViewController+HSBSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HSBSwizzler.m"; sourceTree = "<group>"; };
+		0A9FAE6924DD49800035EB30 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559F8E70F3C296BAF34F218B /* Pods_HSBAnalyticsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSBAnalyticsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43B330EB4E5CE120AAA6790 /* Pods-HSBAnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSBAnalyticsSDK.debug.xcconfig"; path = "Target Support Files/Pods-HSBAnalyticsSDK/Pods-HSBAnalyticsSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F01A862CC61F306ED746742D /* Pods-HSBAnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSBAnalyticsSDK.release.xcconfig"; path = "Target Support Files/Pods-HSBAnalyticsSDK/Pods-HSBAnalyticsSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5ECFCE24D93C7A00CACC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A349DEABCA68515FF7FD05 /* Pods_HSBAnalyticsSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A29878624DE8DEA00CDD0CA /* AppClick */ = {
+			isa = PBXGroup;
+			children = (
+				0A5ED02024DD3D6C00CACC53 /* NSObject+HSBSwizzler.h */,
+				0A5ED02124DD3D6C00CACC53 /* NSObject+HSBSwizzler.m */,
+				0A29872524DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.h */,
+				0A29872624DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.m */,
+				0A29876E24DE83EB00CDD0CA /* UIView+HSBAnalytics.h */,
+				0A29876F24DE83EB00CDD0CA /* UIView+HSBAnalytics.m */,
+				0A29877224DE89B400CDD0CA /* UIButton+HSBAnalytics.h */,
+				0A29877324DE89B400CDD0CA /* UIButton+HSBAnalytics.m */,
+				0A29877624DE8AD700CDD0CA /* UISwitch+HSBAnalytics.h */,
+				0A29877724DE8AD700CDD0CA /* UISwitch+HSBAnalytics.m */,
+				0A29877A24DE8C4700CDD0CA /* UISlider+HSBAnalytics.h */,
+				0A29877B24DE8C4700CDD0CA /* UISlider+HSBAnalytics.m */,
+				0A29877E24DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.h */,
+				0A29877F24DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.m */,
+				0A29878224DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.h */,
+				0A29878324DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.m */,
+				0A2987CF24E0F27500CDD0CA /* UITableView+HSBAnalytics.h */,
+				0A2987D024E0F27500CDD0CA /* UITableView+HSBAnalytics.m */,
+				0A5461C224E1360E00503A08 /* UICollectionView+HSBSwizzler.h */,
+				0A5461C324E1360E00503A08 /* UICollectionView+HSBSwizzler.m */,
+				0A5461C624E136B300503A08 /* HSBAnalyticsDelegateProxy.h */,
+				0A5461C724E136B300503A08 /* HSBAnalyticsDelegateProxy.m */,
+				0A5461CA24E1381900503A08 /* UIScrollView+HSBSwizzler.h */,
+				0A5461CB24E1381900503A08 /* UIScrollView+HSBSwizzler.m */,
+				0A5461E624E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.h */,
+				0A5461E724E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.m */,
+			);
+			path = AppClick;
+			sourceTree = "<group>";
+		};
+		0A29878724DE8DF700CDD0CA /* AppViewScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A5ED02424DD3EA700CACC53 /* UIViewController+HSBSwizzler.h */,
+				0A5ED02524DD3EA700CACC53 /* UIViewController+HSBSwizzler.m */,
+			);
+			path = AppViewScreen;
+			sourceTree = "<group>";
+		};
+		0A31110824ED0DB800FB16AC /* AppException */ = {
+			isa = PBXGroup;
+			children = (
+				0A31110924ED0F5100FB16AC /* HSBAnalyticsExceptionManager.h */,
+				0A31110A24ED0F5100FB16AC /* HSBAnalyticsExceptionManager.m */,
+			);
+			path = AppException;
+			sourceTree = "<group>";
+		};
+		0A53A6B824F3B39E005E1953 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0A53A6BE24F3B479005E1953 /* HSBAnalyticsDatabaseManager.h */,
+				0A53A6BF24F3B479005E1953 /* HSBAnalyticsDatabaseManager.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		0A53A6B924F3B3A9005E1953 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0A53A6BA24F3B3ED005E1953 /* HSBAnalyticsHttpManager.h */,
+				0A53A6BB24F3B3ED005E1953 /* HSBAnalyticsHttpManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0A53A6C224F3BD2B005E1953 /* Commonn */ = {
+			isa = PBXGroup;
+			children = (
+				0A53A6B924F3B3A9005E1953 /* Network */,
+				0A53A6B824F3B39E005E1953 /* Database */,
+			);
+			path = Commonn;
+			sourceTree = "<group>";
+		};
+		0A5ECFC724D93C7A00CACC53 = {
+			isa = PBXGroup;
+			children = (
+				0A5ECFD324D93C7A00CACC53 /* HSBAnalyticsSDK */,
+				0A5ECFD224D93C7A00CACC53 /* Products */,
+				D7B6980621606535396E337B /* Frameworks */,
+				DBCED2EFE02EEDBA8196F63C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0A5ECFD224D93C7A00CACC53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A5ECFD124D93C7A00CACC53 /* HSBAnalyticsSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A5ECFD324D93C7A00CACC53 /* HSBAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0A53A6C224F3BD2B005E1953 /* Commonn */,
+				0A31110824ED0DB800FB16AC /* AppException */,
+				0A29878724DE8DF700CDD0CA /* AppViewScreen */,
+				0A29878624DE8DEA00CDD0CA /* AppClick */,
+				0A9FAE6924DD49800035EB30 /* Info.plist */,
+				0A5ECFD424D93C7A00CACC53 /* HSBAnalyticsSDK.h */,
+				0A5ED00624D9419D00CACC53 /* HSBAnalyticsManager.h */,
+				0A5ED00724D9419D00CACC53 /* HSBAnalyticsManager.m */,
+			);
+			path = HSBAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+		D7B6980621606535396E337B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559F8E70F3C296BAF34F218B /* Pods_HSBAnalyticsSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBCED2EFE02EEDBA8196F63C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C43B330EB4E5CE120AAA6790 /* Pods-HSBAnalyticsSDK.debug.xcconfig */,
+				F01A862CC61F306ED746742D /* Pods-HSBAnalyticsSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A5ECFCC24D93C7A00CACC53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A29877024DE83EB00CDD0CA /* UIView+HSBAnalytics.h in Headers */,
+				0A2987D124E0F27500CDD0CA /* UITableView+HSBAnalytics.h in Headers */,
+				0A5ED00824D9419D00CACC53 /* HSBAnalyticsManager.h in Headers */,
+				0A29878024DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.h in Headers */,
+				0A29872724DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.h in Headers */,
+				0A5ECFD624D93C7A00CACC53 /* HSBAnalyticsSDK.h in Headers */,
+				0A53A6C024F3B479005E1953 /* HSBAnalyticsDatabaseManager.h in Headers */,
+				0A5ED02224DD3D6C00CACC53 /* NSObject+HSBSwizzler.h in Headers */,
+				0A29878424DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.h in Headers */,
+				0A29877824DE8AD700CDD0CA /* UISwitch+HSBAnalytics.h in Headers */,
+				0A5ED02624DD3EA700CACC53 /* UIViewController+HSBSwizzler.h in Headers */,
+				0A5461E824E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.h in Headers */,
+				0A5461C424E1360E00503A08 /* UICollectionView+HSBSwizzler.h in Headers */,
+				0A5461CC24E1381900503A08 /* UIScrollView+HSBSwizzler.h in Headers */,
+				0A53A6BC24F3B3ED005E1953 /* HSBAnalyticsHttpManager.h in Headers */,
+				0A31110B24ED0F5100FB16AC /* HSBAnalyticsExceptionManager.h in Headers */,
+				0A5461C824E136B300503A08 /* HSBAnalyticsDelegateProxy.h in Headers */,
+				0A29877424DE89B400CDD0CA /* UIButton+HSBAnalytics.h in Headers */,
+				0A29877C24DE8C4700CDD0CA /* UISlider+HSBAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A5ECFD024D93C7A00CACC53 /* HSBAnalyticsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5ECFD924D93C7A00CACC53 /* Build configuration list for PBXNativeTarget "HSBAnalyticsSDK" */;
+			buildPhases = (
+				CA5D0AECCD3E2760F942B9E2 /* [CP] Check Pods Manifest.lock */,
+				0A5ECFCC24D93C7A00CACC53 /* Headers */,
+				0A5ECFCD24D93C7A00CACC53 /* Sources */,
+				0A5ECFCE24D93C7A00CACC53 /* Frameworks */,
+				0A5ECFCF24D93C7A00CACC53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSBAnalyticsSDK;
+			productName = HSBAnalyticsSDK;
+			productReference = 0A5ECFD124D93C7A00CACC53 /* HSBAnalyticsSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A5ECFC824D93C7A00CACC53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = huishoubao;
+				TargetAttributes = {
+					0A5ECFD024D93C7A00CACC53 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0A5ECFCB24D93C7A00CACC53 /* Build configuration list for PBXProject "HSBAnalyticsSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A5ECFC724D93C7A00CACC53;
+			productRefGroup = 0A5ECFD224D93C7A00CACC53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A5ECFD024D93C7A00CACC53 /* HSBAnalyticsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A5ECFCF24D93C7A00CACC53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA5D0AECCD3E2760F942B9E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSBAnalyticsSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5ECFCD24D93C7A00CACC53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2987D224E0F27500CDD0CA /* UITableView+HSBAnalytics.m in Sources */,
+				0A53A6BD24F3B3ED005E1953 /* HSBAnalyticsHttpManager.m in Sources */,
+				0A29877924DE8AD700CDD0CA /* UISwitch+HSBAnalytics.m in Sources */,
+				0A29878124DE8D0E00CDD0CA /* UISegmentedControl+HSBAnalytics.m in Sources */,
+				0A5ED02724DD3EA700CACC53 /* UIViewController+HSBSwizzler.m in Sources */,
+				0A5461C524E1360E00503A08 /* UICollectionView+HSBSwizzler.m in Sources */,
+				0A5ED02324DD3D6C00CACC53 /* NSObject+HSBSwizzler.m in Sources */,
+				0A53A6C124F3B479005E1953 /* HSBAnalyticsDatabaseManager.m in Sources */,
+				0A5461E924E27E3300503A08 /* UIGestureRecognizer+HSBSwizzler.m in Sources */,
+				0A29878524DE8D1B00CDD0CA /* UIStepper+HSBAnalytics.m in Sources */,
+				0A29877D24DE8C4700CDD0CA /* UISlider+HSBAnalytics.m in Sources */,
+				0A29877524DE89B400CDD0CA /* UIButton+HSBAnalytics.m in Sources */,
+				0A5461C924E136B300503A08 /* HSBAnalyticsDelegateProxy.m in Sources */,
+				0A31110C24ED0F5100FB16AC /* HSBAnalyticsExceptionManager.m in Sources */,
+				0A29877124DE83EB00CDD0CA /* UIView+HSBAnalytics.m in Sources */,
+				0A29872824DE4FFA00CDD0CA /* UIApplication+HSBSwizzler.m in Sources */,
+				0A5ED00924D9419D00CACC53 /* HSBAnalyticsManager.m in Sources */,
+				0A5461CD24E1381900503A08 /* UIScrollView+HSBSwizzler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A5ECFD724D93C7A00CACC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A5ECFD824D93C7A00CACC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A5ECFDA24D93C7A00CACC53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43B330EB4E5CE120AAA6790 /* Pods-HSBAnalyticsSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GKW57RJB7W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSBAnalyticsSDK/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huishoubao.HSBAnalyticsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A5ECFDB24D93C7A00CACC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01A862CC61F306ED746742D /* Pods-HSBAnalyticsSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GKW57RJB7W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSBAnalyticsSDK/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huishoubao.HSBAnalyticsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5ECFCB24D93C7A00CACC53 /* Build configuration list for PBXProject "HSBAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5ECFD724D93C7A00CACC53 /* Debug */,
+				0A5ECFD824D93C7A00CACC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5ECFD924D93C7A00CACC53 /* Build configuration list for PBXNativeTarget "HSBAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5ECFDA24D93C7A00CACC53 /* Debug */,
+				0A5ECFDB24D93C7A00CACC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A5ECFC824D93C7A00CACC53 /* Project object */;
+}
